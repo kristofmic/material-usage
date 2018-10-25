@@ -1,0 +1,31 @@
+{
+  "name": "expuicomponents-distinct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "classnames": "2.2.6",
+    "@material-ui/core": "3.3.1",
+    "react": "16.6.0",
+    "react-dom": "16.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "@babel/plugin-transform-runtime": "7.1.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/runtime": "7.1.2",
+    "@material-ui/core": "3.3.1",
+    "classnames": "2.2.6",
+    "react": "16.6.0",
+    "react-dom": "16.6.0",
+    "react-transition-group": "2.5.0"
+  }
+}
