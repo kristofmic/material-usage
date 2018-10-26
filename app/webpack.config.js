@@ -14,9 +14,9 @@ module.exports = {
 
   resolve: {
     alias: {
-      'expUiComponents-distinct': path.resolve(
+      'expUiComponents-separate': path.resolve(
         root,
-        'expUiComponents-distinct'
+        'expUiComponents-separate'
       ),
       'expUiComponents-fork': path.resolve(root, 'expUiComponents-fork'),
       'expUiComponents-wrap': path.resolve(root, 'expUiComponents-wrap'),
@@ -28,9 +28,7 @@ module.exports = {
         'node_modules',
         'react-transition-group'
       ),
-      'prop-types': path.resolve(__dirname, 'node_modules', 'prop-types'),
       '@material-ui': path.resolve(__dirname, 'node_modules', '@material-ui'),
-      classnames: path.resolve(__dirname, 'node_modules', 'classnames'),
     },
     extensions: ['.js', '.json', '.jsx'],
   },

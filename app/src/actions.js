@@ -21,6 +21,6 @@ export function setWhoIAm() {
         type: 'IAM',
         payload: names[++nameIndex % names.length],
       });
-    }, 5000);
+    }, 2000);
   };
 }
